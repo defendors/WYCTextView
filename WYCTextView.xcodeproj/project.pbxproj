@@ -15,6 +15,7 @@
 		845769851F90638000C110F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845769841F90638000C110F3 /* main.m */; };
 		8457698F1F90638000C110F3 /* WYCTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8457698E1F90638000C110F3 /* WYCTextViewTests.m */; };
 		8457699A1F90638000C110F3 /* WYCTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845769991F90638000C110F3 /* WYCTextViewUITests.m */; };
+		845769A91F90668000C110F3 /* WYCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845769A81F90668000C110F3 /* WYCTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		845769951F90638000C110F3 /* WYCTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYCTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845769991F90638000C110F3 /* WYCTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCTextViewUITests.m; sourceTree = "<group>"; };
 		8457699B1F90638000C110F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845769A71F90668000C110F3 /* WYCTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCTextView.h; sourceTree = "<group>"; };
+		845769A81F90668000C110F3 /* WYCTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				845769761F90637F00C110F3 /* AppDelegate.m */,
 				845769781F90638000C110F3 /* ViewController.h */,
 				845769791F90638000C110F3 /* ViewController.m */,
+				845769A71F90668000C110F3 /* WYCTextView.h */,
+				845769A81F90668000C110F3 /* WYCTextView.m */,
 				8457697B1F90638000C110F3 /* Main.storyboard */,
 				8457697E1F90638000C110F3 /* Assets.xcassets */,
 				845769801F90638000C110F3 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				8457697A1F90638000C110F3 /* ViewController.m in Sources */,
 				845769851F90638000C110F3 /* main.m in Sources */,
 				845769771F90637F00C110F3 /* AppDelegate.m in Sources */,
+				845769A91F90668000C110F3 /* WYCTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
